@@ -15,6 +15,7 @@
     <ClCompile Include="..\posix\cpoll\cpoll.cpp" />
     <ClCompile Include="..\posix\dlfcn.c" />
     <ClCompile Include="..\posix\unistd.c" />
+    <ClCompile Include="..\posix\wepoll\wepoll.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\posix\arpa\inet.h" />
@@ -29,6 +30,7 @@
     <ClInclude Include="..\posix\sys\file.h" />
     <ClInclude Include="..\posix\sys\socket.h" />
     <ClInclude Include="..\posix\unistd.h" />
+    <ClInclude Include="..\posix\wepoll\wepoll.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="posix.def" />

@@ -20,6 +20,9 @@
     <Filter Include="Source files\posix\cpoll">
       <UniqueIdentifier>{3d5f98d7-0159-4857-bd33-99c951344cd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\posix\wepoll">
+      <UniqueIdentifier>{84868e91-29bc-452e-8618-9f69795a9807}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\posix\dlfcn.c">
@@ -33,6 +36,9 @@
     </ClCompile>
     <ClCompile Include="..\posix\atomic_lock.c">
       <Filter>Source files\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\posix\wepoll\wepoll.c">
+      <Filter>Source files\posix\wepoll</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +77,9 @@
     </ClInclude>
     <ClInclude Include="..\posix\atomic_lock.h">
       <Filter>Source files\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\wepoll\wepoll.h">
+      <Filter>Source files\posix\wepoll</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
