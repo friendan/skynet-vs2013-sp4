@@ -24,7 +24,9 @@
     <ClInclude Include="..\posix\dlfcn.h" />
     <ClInclude Include="..\posix\netinet\in.h" />
     <ClInclude Include="..\posix\netinet\tcp.h" />
+    <ClInclude Include="..\posix\net\if.h" />
     <ClInclude Include="..\posix\pthread.h" />
+    <ClInclude Include="..\posix\quark_compile.h" />
     <ClInclude Include="..\posix\sched.h" />
     <ClInclude Include="..\posix\semaphore.h" />
     <ClInclude Include="..\posix\sys\file.h" />
@@ -80,7 +82,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LUA53_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LUA53_EXPORTS;QKC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\posix;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

@@ -23,6 +23,9 @@
     <Filter Include="Source files\posix\wepoll">
       <UniqueIdentifier>{84868e91-29bc-452e-8618-9f69795a9807}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\posix\net">
+      <UniqueIdentifier>{251f4c95-1bc3-41f6-9411-6c2682d51127}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\posix\dlfcn.c">
@@ -80,6 +83,12 @@
     </ClInclude>
     <ClInclude Include="..\posix\wepoll\wepoll.h">
       <Filter>Source files\posix\wepoll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\quark_compile.h">
+      <Filter>Source files\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\net\if.h">
+      <Filter>Source files\posix\net</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
